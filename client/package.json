@@ -9,9 +9,9 @@
     "axios": "^0.23.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^0.9.5",
+    "react-scripts": "^4.0.3",
     "stream-chat": "^3.13.1",
-    "stream-chat-react": "^0.6.26",
+    "stream-chat-react": "^6.10.0",
     "universal-cookie": "^4.0.4",
     "web-vitals": "^1.1.2"
   },

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Cookies from "universal-cookie";
 import axios from "axios";
 
-import signinImage from "../assets/signup.jpg";
+import signinImage from "../assets/signup.png";
 
 const cookies = new Cookies();
 
@@ -28,8 +28,9 @@ const Auth = () => {
 
     const { username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "http://localhost:5000/auth";
-    // const URL = 'https://medical-pager.herokuapp.com/auth';
+    // const URL = "http://localhost:5000/auth";
+    const URL = "https://dev-team-chat.herokuapp.com/auth";
+
 
     const {
       data: { token, userId, hashedPassword, fullName },
