@@ -225,7 +225,7 @@
   }
   
   @media screen and (max-width: 960px) {
-    .str-chat-channel-list.team.light {
+    .str-chat-channel-list.team {
       position: unset;
       left: unset;
       top: unset;
@@ -1712,7 +1712,7 @@
     display: none;
     height: 50px;
     width: 50px;
-    background: #1c407e;
+    background: #005fff;
     position: absolute;
     right: -2%;
     top: 50%;
@@ -1804,7 +1804,7 @@
   }
   
   @media screen and (max-width: 650px) {
-    .channel-list__container-toggle {
+    .channerl-list__container-toggle {
       right: -3%;
     }
   }
